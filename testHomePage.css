@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+
+
+.containerr {
+ 
+  align-items: center;
+  
+  box-sizing: border-box;
+  padding: 20px;
+  padding-top: 15em;
+  gap: 20px;
+}
+
+.dobe{
+  height: 50%;
+  width: 50%;
+  
+  box-sizing: border-box;
+  color: blue;
+  background: #111;
+  border: none;
+  
+  outline: none;
+  resize: none;
+  font-family: monospace;
+  transition: background 0.25s, color 0.25s;
+  opacity: 6;
+  border-radius: 5px;
+  text-transform: uppercase;
+  border: 6px solid transparent;
+  outline: none;
+  border-color: #206592;
+  
+}
+
+
+button{
+  position: relative;
+  height: 65px;
+  width: 210px;
+  margin: 0 40px;
+  font-size: 23px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  outline: none;
+  cursor: pointer;
+  background: #0d0d0d;
+  overflow: hidden;
+  transition: 0.6s;
+}
+button:first-child{
+  color: #206592;
+  border-color: #206592;
+}
+button:nth-last-child(2){
+    color: yellowgreen;
+    opacity: 3;
+    border-color: blueviolet;
+  }
+
+  button:nth-last-child(3){
+    color: pink;
+    opacity: 3;
+    border-color: white;
+  }
+
+button:first-child{
+    color: #206592;
+    border-color: #206592;
+  }
+button:last-child{
+  color: #ce5c0c;
+  border-color: #ce5c0c;
+}
+button:before, button:after{
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  height: 100%;
+  filter: blur(30px);
+  opacity: 0.4;
+  transition: 0.6s;
+}
+
+button:before{
+  width: 60px;
+  background: rgba(255,255,255,0.6);
+  transform: translateX(-130px) skewX(-45deg);
+}
+button:after{
+  width: 30px;
+  background: rgba(255,255,255,0.6);
+  transform: translateX(-130px) skewX(-45deg);
+}
+button:hover:before,
+button:hover:after{
+  opacity: 0.6;
+  transform: translateX(320px) skewX(-45deg);
+}
+button:hover{
+  color: red;
+}
+button:hover:first-child{
+  background: #206592;
+}
+button:hover:last-child{
+  background: #ce5c0c;
+}
+
+button:hover:nth-last-child(2){
+    color: red;
+    opacity: 3;
+    border-color: blueviolet;
+  }
+
+body {
+
+    background-color: #111;
+}
+
+
+.mainButtons{
+    text-align: center;
+    padding-top: 8em;
+}
+
+
+#main{
+    font-size: 120px;
+    text-transform: uppercase;
+    font-family: 'Gambetta', serif;
+    letter-spacing: -3px;
+    transition: 700ms ease;
+    font-variation-settings: "wght" 311;
+    margin-bottom: 0.8rem;
+    color: PaleGoldenRod;
+    outline: none;
+    text-align: center;
+  
+}
+
+
+h2{
+  color:#2E9F82;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+
+
+
+
+
+p{
+  color: PaleGoldenRod;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  font-size: 26px;
+
+}
+
+
+h3 {
+  
+    position: relative;
+    text-align: center;
+    color: #2E9F82;
+}
+    #divider {
+      
+      z-index: 2;
+      position: relative;
+      padding: 0 10px;
+    
+  }
+  
+  h3:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    top: 16px;
+    left: 0;
+    
+    width: 100%;
+    border-bottom: 2px solid #ccc;
+  }
+.subs{
+  position: relative; bottom: 20px;
+  letter-spacing: 1em;
+  color:#2E9F82;
+ margin-right: 0.5em;
+    padding: 1rem;
+    font-size: 18px;
+  }
+  
+ 
+
+  h4{
+    font-family: 'Gambetta', serif;
+    color: PaleGoldenRod;;
+  }
+
+ 
+
+
+
+  #myTextarea1, #myTextarea2, #myTextarea3, #myTextarea4, #myTextarea5, #myTextarea6, #myTextarea7, #myTextarea8, #myTextarea9{
+   
+    box-sizing: border-box;
+height: 90%;
+     
+    background: #111;
+    border: none;
+    
+    outline: none;
+    resize: none;
+    font-family: monospace;
+    opacity: 6;
+    border-radius: 5px;
+   
+    border: 6px solid transparent;
+    outline: none;
+    border-color: #206592;
+  }
+
+  #myTextarea2{
+
+color: blue;
+
+  }
+
+  #myTextarea1{
+    color: red;
+  }
+
+  #myTextarea3{
+    color: yellow;
+  }
+
+  #myTextarea4{
+    color: #2E9F82;
+  }
+
+  #myTextarea5{
+    color: aqua;
+  }
+  #myTextarea6{
+    color:chartreuse;
+  }
+
+  #myTextarea7{
+    color:crimson;
+  }
+
+  #myTextarea8{
+    color:deeppink;
+  }
+
+
+  .text{
+    text-align: center;
+    
+  }
+
+  .container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 4em;
+    
+    
+  }

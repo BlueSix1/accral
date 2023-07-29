@@ -1,0 +1,478 @@
+body {
+
+    background-color: #111;
+}
+
+.containerr {
+  display: grid;
+  grid-template-columns: 1fr 100px 1fr;
+  align-items: center;
+  height: 100vh;
+  box-sizing: border-box;
+  padding: 20px;
+  gap: 20px;
+}
+
+.large-area {
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  color: #aaaaaa;
+  background: #444444;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  resize: none;
+  font-family: monospace;
+  transition: background 0.25s, color 0.25s;
+}
+
+button{
+  position: relative;
+  height: 65px;
+  width: 210px;
+  margin: 0 40px;
+  font-size: 23px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  outline: none;
+  cursor: pointer;
+  background: blueviolet;
+  overflow: hidden;
+  transition: 0.6s;
+}
+button:first-child{
+  color: #206592;
+  border-color: #206592;
+}
+button:nth-last-child(2){
+    color: yellowgreen;
+    opacity: 3;
+    border-color: blueviolet;
+  }
+
+  button:nth-last-child(3){
+    color: pink;
+    opacity: 3;
+    border-color: white;
+  }
+
+button:first-child{
+    color: #206592;
+    border-color: #206592;
+  }
+button:last-child{
+  color: #ce5c0c;
+  border-color: #ce5c0c;
+}
+button:before, button:after{
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  height: 100%;
+  filter: blur(30px);
+  opacity: 0.4;
+  transition: 0.6s;
+}
+
+button:before{
+  width: 60px;
+  background: rgba(255,255,255,0.6);
+  transform: translateX(-130px) skewX(-45deg);
+}
+button:after{
+  width: 30px;
+  background: rgba(255,255,255,0.6);
+  transform: translateX(-130px) skewX(-45deg);
+}
+button:hover:before,
+button:hover:after{
+  opacity: 0.6;
+  transform: translateX(320px) skewX(-45deg);
+}
+button:hover{
+  color: red;
+}
+button:hover:first-child{
+  background: #206592;
+}
+button:hover:last-child{
+  background: #ce5c0c;
+}
+
+button:hover:nth-last-child(2){
+    color: red;
+    opacity: 3;
+    border-color: blueviolet;
+  }
+
+
+
+
+
+
+
+
+
+
+.dobe{
+  height: 80%;
+  width: 160%;
+  
+  box-sizing: border-box;
+  color: blue;
+  background: #111;
+  border: none;
+  
+  outline: none;
+  resize: none;
+  font-family: monospace;
+  transition: background 0.25s, color 0.25s;
+  opacity: 6;
+  border-radius: 5px;
+  text-transform: uppercase;
+  border: 6px solid transparent;
+  outline: none;
+  border-color: #206592;
+  
+}
+.containerr{
+ align-items: center;
+ padding-left: 25em;
+  }
+
+.dobe-area:hover,
+.dobe-area:focus {
+  background: #4a4a4a;
+}
+
+.dobe-area:focus {
+  color: #eeeeee;
+}
+
+.dobe-area1:hover,
+.dobe-area1:focus {
+  background: #4a4a4a;
+}
+
+.dobe-area:focus {
+  color: #eeeeee;
+}
+
+//////
+
+.large-area:hover,
+.large-area:focus {
+  background: #4a4a4a;
+}
+
+.large-area:focus {
+  color: #eeeeee;
+}
+
+.large-area1:hover,
+.large-area1:focus {
+  background: #4a4a4a;
+}
+
+.large-area:focus {
+  color: #eeeeee;
+}
+
+
+
+
+
+
+.controls__button {
+  padding: 8px 14px;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #009578;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "Roboto";
+}
+
+.controls__button:active {
+  background: #00705a;
+}
+
+
+
+#main{
+    font-size: 120px;
+    text-transform: uppercase;
+    font-family: 'Gambetta', serif;
+    letter-spacing: -3px;
+    transition: 700ms ease;
+    font-variation-settings: "wght" 311;
+    margin-bottom: 0.8rem;
+    color: PaleGoldenRod;
+    outline: none;
+    text-align: center;
+  
+}
+
+#myTextArea2Value2{
+  margin-left: 3em;
+}
+
+h2{
+  color:#2E9F82;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.infoType{
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.quickButtons{
+text-align: center;
+}
+
+#manifestButton{
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4d4dff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  margin-right: 10px;
+ 
+}
+
+#mytext3, #mytext4, #mytext2{
+  width: 10%;
+  border: 0.2px solid rebeccapurple;
+  border-radius: 12px;
+  padding: 6px 12px;
+  
+}
+
+#aReset{
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: red;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+
+#verifyButton{
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: grey;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+#allZoneButton{
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: blueviolet;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.multipleTest{
+  margin-top: 3em;
+}
+
+#enterVal{
+  text-align: center;
+}
+
+#format{
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: pink;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.container{
+  display: flex;
+	justify-content:space-between;
+	flex:0 50%;
+    flex-wrap: wrap;
+}
+p{
+  color: PaleGoldenRod;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  font-size: 26px;
+
+}
+
+#scansButton{
+  margin-right: 10px;
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: green;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+
+}
+
+#valButton{
+  margin-right: 10px;
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: purple;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+h3 {
+  
+    position: relative;
+    text-align: center;
+    color: #2E9F82;
+}
+    #divider {
+      
+      z-index: 2;
+      position: relative;
+      padding: 0 10px;
+    
+  }
+  
+  h3:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    top: 16px;
+    left: 0;
+    
+    width: 100%;
+    border-bottom: 2px solid #ccc;
+  }
+.subs{
+  position: relative; bottom: 20px;
+  letter-spacing: 1em;
+  color:#2E9F82;
+ margin-right: 0.5em;
+    padding: 1rem;
+    font-size: 18px;
+  }
+  
+  textarea {
+    width: 100%;
+    min-height: 30rem;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 0.8rem;
+    
+    
+  }
+ 
+  #myTextarea{
+    padding-right: 40em;
+
+    background-color: bisque;
+    opacity: 6;
+    border: 30px solid #2E9F82;
+}
+
+  #buttonClickMe{
+    padding: 8px;
+    margin: 0 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color:#2E9F82;
+    color: bisque;
+    transition: background-color 0.3s ease;
+  }
+
+  h4{
+    font-family: 'Gambetta', serif;
+    color: PaleGoldenRod;;
+  }
+
+  #mytext, #stc{
+width: 50px;
+border: 0.2px solid rebeccapurple;
+border-radius: 12px;
+padding: 6px 12px;
+
+  }
+  
+  #myTextarea1, #myTextarea2, #myTextarea3, #myTextarea4, #myTextarea5, #myTextarea6, #myTextarea7, #myTextarea8, #myTextarea9{
+    width: 100%;
+    background-color: bisque;
+    opacity: 6;
+    border: 30px solid 
+  }
+
+  .text{
+    text-align: center;
+    
+  }
+
+  #myTextArea2Value2{
+   margin-right: 4.5em;
+  }
